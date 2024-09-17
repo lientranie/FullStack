@@ -43,6 +43,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/persons', (request, response) => {
+    console.log('Received POST request with body:', request.body); // Print the request body
     response.json(persons)
   })
 

@@ -66,3 +66,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Notification base styling */
+.notification {
+  background-color: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Success notification */
+.success {
+  color: green;
+  border-color: green;
+}
+
+/* Error notification */
+.error {
+  color: red;
+  border-color: red;
+}

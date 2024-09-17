@@ -27,3 +27,15 @@ Content-Type: application/json
   "name": "Lien Tran",
   "number": "123-456-789"
 }
+
+### 
+GET https://phonebook-backend-q39g.onrender.com/api/persons
+
+###
+POST https://phonebook-backend-q39g.onrender.com/api/persons
+Content-Type: application/json
+
+{
+  "name": "Lien Tran",
+  "number": "123-456-789"
+}

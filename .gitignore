@@ -1,18 +1,24 @@
-# Ignore node_modules for Node.js projects
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
 node_modules/
 
-# Ignore Python cache files
-__pycache__/
-*.pyc
+# Optional npm cache directory
+.npm
 
-# Ignore log files
-*.log
+# Directory for generated code
+dist/
+build/
 
-# Ignore macOS system files
+# OS-specific files
 .DS_Store
 
+# Environment variables
 .env
 
-# Ignore build files (for example, for frontend projects)
-/dist/
-/build/
+# IDE-specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
